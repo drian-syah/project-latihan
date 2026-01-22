@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <title>Dashboard</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css">
-</head>
+<?php
+require_once 'header.php';
+?>
 <body>
 
 <div class="d-flex" id="wrapper">
@@ -17,7 +11,9 @@
       APP SEKOLAH
     </div>
     <div class="list-group list-group-flush">
-      <!-- Menu dinamis (Admin / Siswa) -->
+      <?php
+        require_once 'sidebar.php'
+      ?>
     </div>
   </div>
 
@@ -41,5 +37,6 @@
   </div>
 </div>
 
-</body>
-</html>
+<?php
+require_once 'footer.php';
+?>
