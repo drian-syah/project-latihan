@@ -6,23 +6,16 @@ require_once 'header.php';
 <div class="d-flex" id="wrapper">
 
   <!-- Sidebar -->
-  <div class="bg-primary text-white sidebar">
-    <div class="sidebar-heading text-center py-4 fw-bold">
-      APP SEKOLAH
-    </div>
-    <div class="list-group list-group-flush">
-      <?php
+  <?php
         require_once 'sidebar.php'
       ?>
-    </div>
-  </div>
 
   <!-- Page Content -->
-  <div id="page-content-wrapper" class="w-100">
+  <div id="page-content-wrapper" class="w-100 py-4">
 
     <!-- Topbar -->
     <nav class="navbar navbar-expand navbar-light bg-white shadow-sm px-4">
-      <span class="navbar-text fw-semibold">Dashboard</span>
+      <!-- <span class="navbar-text fw-semibold">Dashboard</span> -->
       <div class="ms-auto">
         <span class="me-3">Admin</span>
         <button class="btn btn-sm btn-danger">Logout</button>
