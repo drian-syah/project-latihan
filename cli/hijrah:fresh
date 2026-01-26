@@ -1,0 +1,8 @@
+<?php
+
+
+echo "Database Dibersihkan.\n";
+
+require __DIR__ . '/../app/database/migratefresh.php';
+
+echo "Migration selesai.\n";

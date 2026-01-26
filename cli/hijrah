@@ -1,0 +1,7 @@
+<?php
+
+echo "Database Sudah Dibuat.\n";
+
+require __DIR__ . '/../app/database/migrate.php';
+
+?>
