@@ -4,7 +4,7 @@ require_once 'header.php';
 
 <div class="bg-dark text-white sidebar">
     <div class="sidebar-heading px-4 text-center py-4 fw-bold">
-      WEBSITE PENGADUAN
+      APLIKASI PENGADUAN
     </div>
     <div class="list-group">
 

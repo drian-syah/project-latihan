@@ -21,3 +21,4 @@ mysqli_query(
 mysqli_select_db($engine, $config['database']);
 
 return $engine;
+
